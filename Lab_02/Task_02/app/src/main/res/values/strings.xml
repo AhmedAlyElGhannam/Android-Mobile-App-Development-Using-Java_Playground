@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab_02</string>
+    <string name="phoneSpeakableTxt">Phone</string>
+    <string name="phoneNumberLabel">Phone Number</string>
+    <string name="nameLabel">Name</string>
+    <string name="nameSpeakableTxt">enter name</string>
+    <string name="nextBtn">Next</string>
+    <string name="exitBtn">Exit</string>
+    <string name="buttonBacc">Exit</string>
+    <string name="textViewInName">Name</string>
+    <string name="textViewInPhone">Phone</string>
+</resources>

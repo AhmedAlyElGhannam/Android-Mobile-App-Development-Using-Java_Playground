@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab02_Task03</string>
+    <string name="rots">Rotations</string>
+    <string name="RotationCount">Counter</string>
+</resources>
