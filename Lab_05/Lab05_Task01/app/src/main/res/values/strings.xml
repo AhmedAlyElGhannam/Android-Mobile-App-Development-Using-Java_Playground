@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab05_Task02</string>
+    <string name="ThunderCrossSplitAttaaaack">https://i.kym-cdn.com/entries/icons/original/000/030/814/Dio_vs_Dire_-_Thunder_Cross_Split_Attack_-_4K_-_JJBA_Part_1_-_%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7_1-12_screenshot.png</string>
+    <string name="btnDownload">Download</string>
+    <string name="txtTitle">Title</string>
+    <string name="txtPrice">Price</string>
+    <string name="txtDesc">Description</string>
+    <string name="btnPrev">Previous</string>
+    <string name="btnNext">Next</string>
+</resources>
