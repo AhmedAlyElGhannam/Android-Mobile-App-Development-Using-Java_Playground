@@ -32,11 +32,11 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnNext;
-    Button btnPrev;
+//    Button btnNext;
+//    Button btnPrev;
     TextView txtViewTitle;
-    TextView txtViewPrice;
     TextView txtViewDesc;
+    TextView txtViewPrice;
     RatingBar ratingBar;
     ImageView imgView;
     Product[] productsInfo;
@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
         // initializing array of products
         productsInfo = new Product[NUM_OF_PRODUCTS];
-
-        btnNext = findViewById(R.id.btnNext);
-        btnPrev = findViewById(R.id.btnPrev);
+//
+//        btnNext = findViewById(R.id.btnNext);
+//        btnPrev = findViewById(R.id.btnPrev);
 
         txtViewTitle = findViewById(R.id.txtViewTitle);
         txtViewPrice = findViewById(R.id.txtViewPrice);
@@ -119,26 +119,26 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        // onclick listener for next product button
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (productCounter < (NUM_OF_PRODUCTS - 1)) {
-                    productCounter++;
-                    updateUI();
-                }
-            }
-        });
-        // onclick listener for prev product button
-        btnPrev.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (productCounter > 0) {
-                    productCounter--;
-                    updateUI();
-                }
-            }
-        });
+//        // onclick listener for next product button
+//        btnNext.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (productCounter < (NUM_OF_PRODUCTS - 1)) {
+//                    productCounter++;
+//                    updateUI();
+//                }
+//            }
+//        });
+//        // onclick listener for prev product button
+//        btnPrev.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (productCounter > 0) {
+//                    productCounter--;
+//                    updateUI();
+//                }
+//            }
+//        });
     }
 
     void updateUI() {
